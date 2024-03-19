@@ -1,6 +1,9 @@
 [window]
 startup_mode = "maximized"
 
+[env]
+COLORTERM = "truecolor"
+
 [cursor]
 style = { shape = "Block", blinking = "Always" }
 
@@ -8,5 +11,5 @@ style = { shape = "Block", blinking = "Always" }
 size = 16.5
 
 [font.normal]
-family = "MesloLGS NF"
+family = "0xProto Nerd Font"
 style = "Regular"
