@@ -1,0 +1,12 @@
+[window]
+startup_mode = "maximized"
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+
+[font]
+size = 16.5
+
+[font.normal]
+family = "MesloLGS NF"
+style = "Regular"
