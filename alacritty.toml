@@ -1,5 +1,8 @@
 [window]
+padding.x = 5
+padding.y = 5
 startup_mode = "maximized"
+decorations = "buttonless"
 
 [env]
 COLORTERM = "truecolor"
@@ -9,6 +12,10 @@ style = { shape = "Block", blinking = "Always" }
 
 [font]
 size = 16.5
+
+[shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login", "-c", "tmux a -t base || tmux new -s base"]
 
 [font.normal]
 family = "0xProto Nerd Font"
